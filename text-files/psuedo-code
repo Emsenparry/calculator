@@ -5,3 +5,9 @@ Brugeren trigger "Hent Data"
 "Hent Data" validere om data er korrekt.
 Hvis ikke - Besked gives/vises (fejl)
 Hvis korrekt - Svar gives/vises
+
+
+
+ERRORS
+Validering af input felter (tal og tomme felter)
+Kan ikke divideres me 0
