@@ -1,1 +1,7 @@
-
+Brugeren indtaster data.
+Brugeren vælger en operator (-, +, /, *)
+Brugeren trykker på "Beregn"
+Brugeren trigger "Hent Data"
+"Hent Data" validere om data er korrekt.
+Hvis ikke - Besked gives/vises (fejl)
+Hvis korrekt - Svar gives/vises
