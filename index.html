@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,23 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <form action="">
         <input type="number" id="value1">
         <select name="operator" id="op">
-            <option value="plus">+</option>
-            <option value="minus">-</option>
-            <option value="times">*</option>
-            <option value="divide">/</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
         </select>
-        <input type="text" id="value2">
-        <button type="button" onclick="validateForm(this.form)">Calculate</button>
+        <input type="number" id="value2">
+        <input type="button" value="Solve" onClick="calc(this)">
+
+        <p id="result" name="r1">
+            <br/>
+        </p>
     </form>
 </body>
+
 </html>

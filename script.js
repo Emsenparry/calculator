@@ -1,6 +1,25 @@
-function validateForm(form) {
+function calc(form) {
+    let def = "0";
+    let valOne = document.getElementById("value1").value;
+    let op = document.getElementById("op").value;
+    let valTwo = document.getElementById("value2").value;
 
-    num1 = document.getElementById("value1").value;
-    num2 = document.getElementById("value2").value;
-    console.log(num1 + num2);
+    if (op === "+") {
+        def = parseInt(valOne) + parseInt(valTwo);
+    }
+
+    else if (op === "-") {
+        def = parseInt(valOne) - parseInt(valTwo);
+    }
+
+    else if (op === "*") {
+        def = parseInt(valOne) * parseInt(valTwo);
+    }
+
+    else if (op === "/") {
+        def = parseInt(valOne) / parseInt(valTwo);
+    }
+
+    console.log(document.getElementById("result").innerHTML = def)
+    return false;
 }
