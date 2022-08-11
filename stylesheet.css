@@ -8,3 +8,8 @@ form .text-error {
     border-color: red;
     border-width: 1.5px;
   }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
