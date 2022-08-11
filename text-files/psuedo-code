@@ -1,13 +1,13 @@
 Brugeren indtaster data.
 Brugeren vælger en operator (-, +, /, *)
 Brugeren trykker på "Beregn"
-Brugeren trigger "Hent Data"
+"Beregn" trigger "Hent Data"
 "Hent Data" validere om data er korrekt.
 Hvis ikke - Besked gives/vises (fejl)
-Hvis korrekt - Svar gives/vises
+Hvis korrekt - Svar gives/vises (i konsollen)
 
 
 
 ERRORS
-Validering af input felter (tal og tomme felter)
-Kan ikke divideres me 0
+- Validering af input felter (tal og tomme felter)
+- Kan ikke divideres me 0
