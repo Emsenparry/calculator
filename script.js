@@ -6,19 +6,19 @@ function calc(form) {
     let valTwo = document.getElementById("value2").value;
 
     if (op === "+") {
-        def = parseInt(valOne) + parseInt(valTwo);
+        def = parseFloat(valOne) + parseFloat(valTwo);
     }
 
     else if (op === "-") {
-        def = parseInt(valOne) - parseInt(valTwo);
+        def = parseFloat(valOne) - parseFloat(valTwo);
     }
 
     else if (op === "*") {
-        def = parseInt(valOne) * parseInt(valTwo);
+        def = parseFloat(valOne) * parseFloat(valTwo);
     }
 
     else if (op === "/") {
-        def = parseInt(valOne) / parseInt(valTwo);
+        def = parseFloat(valOne) / parseFloat(valTwo);
     }
 
     if(op == "/") {
