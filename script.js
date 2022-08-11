@@ -20,6 +20,6 @@ function calc(form) {
         def = parseInt(valOne) / parseInt(valTwo);
     }
 
-    console.log(document.getElementById("result").innerHTML = def)
+    console.log(def)
     return false;
 }
