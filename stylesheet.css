@@ -14,16 +14,21 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-
+.container-main{
+    max-width: 450px;
+    margin: auto;
+}
 form{
     position: relative;
 }
-
 input{
     padding: 7px;
 }
-
 #btn{
-    
-    padding: 0;
+    width: 15%;
+    padding: 7px 0;
+    margin: 0.5em 0;
+    position: absolute;
+    top: 35px;
+    left: 73.5%;
 }
