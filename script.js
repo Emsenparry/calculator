@@ -16,18 +16,18 @@ function calc() {
         def = Number(valOne) - Number(valTwo);
     }
     // Ellers hvis operatoren er identisk med gange, så skal default udgive et number som er ValOne gange med ValTwo
-    else if (op === "gange") {
+    else if (op === "times") {
         def = Number(valOne) * Number(valTwo);
     }
     // Ellers hvis operatoren er identisk med dividere, så skal default udgive et number som er ValOne divideret med ValTwo
-    else if (op === "dividere") {
+    else if (op === "divide") {
         def = Number(valOne) / Number(valTwo);
     }
 
 
     /* Error handling. Skrives der forkte inputs, så vises der en alert */
     // Hvis der divideres med 0 = Error
-    if(op === "dividere") {
+    if(op === "divide") {
         if (def == "Infinity") {
            alert("Please don't divide by zero.");
            return;
