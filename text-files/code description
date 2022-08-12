@@ -1,5 +1,9 @@
 Variables
-Variablerne skal defineres med navn og datatyper.
+- def = "Default", kommer ud som et number.
+- valOne = "ValueOne", kommer ud som et number.
+- valTwo = "ValueTwo", kommer ud som et number.
+- op = "Operator", kommer ud som en string.
 
 Funktioner
-Beskrivelse og variabler funktionen er afhænging af.
+- Funktionen calc() henter data fra dommen og lægges ned i variabler.
+Hvorefter den bruger de variabler til at lægge inputs sammen (+operatoren man har valgt) og beregne resultatet.

@@ -1,4 +1,5 @@
-
+/* Funktionen calc() henter data fra dommen og lægges ned i variabler. Hvorefter den bruger de variabler til
+at lægge inputs sammen (+operatoren man har valgt) og beregne resultatet. */
 function calc() {
 
     // Variabler laves
