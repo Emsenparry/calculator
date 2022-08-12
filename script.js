@@ -1,18 +1,20 @@
+
 function calc() {
 
     let def = "0";
     let valOne = document.getElementById("value1").value;
-    let op = document.getElementById("op").value;
     let valTwo = document.getElementById("value2").value;
+    let op = document.getElementById("op").value;
 
-    if (op === "pls") {
+    // Hvis operatoren er identisk med plus, så skal default udgive et number som er ValOne og ValTwo
+    if (op === "plus") {
         def = Number(valOne) + Number(valTwo);
     }
-
+    // Ellers hvis operatoren er identisk med minus, så skal default udgive et number som er ValOne og ValTwo
     else if (op === "minus") {
         def = Number(valOne) - Number(valTwo);
     }
-
+    
     else if (op === "gange") {
         def = Number(valOne) * Number(valTwo);
     }
@@ -21,22 +23,27 @@ function calc() {
         def = Number(valOne) / Number(valTwo);
     }
 
+
+    /* Error handling. Skrives der forkte inputs, så vises der en alert */
+    // Hvis der divideres med 0 = Error
     if(op === "dividere") {
         if (def == "Infinity") {
            alert("Please don't divide by zero.");
            return;
         }
      }
-
-     if(valOne ==="") {
+    // Hvis man ikke indtaster noget = Error
+     if(valOne === "") {
+        alert("Please enter numbers in both sections")
+        return false;
+     }
+    // Hvis man ikke indtaster noget = Error
+     if(valTwo === "") {
         alert("Please enter numbers in both sections")
         return false;
      }
 
-     if(valTwo ==="") {
-        alert("Please enter numbers in both sections")
-        return false;
-     }
+    // Det viser resultatet i konsollen
     console.log(def)
     return false;
 }
