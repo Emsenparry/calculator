@@ -1,24 +1,25 @@
 
 function calc() {
 
+    // Variabler laves
     let def = "0";
     let valOne = document.getElementById("value1").value;
     let valTwo = document.getElementById("value2").value;
     let op = document.getElementById("op").value;
 
-    // Hvis operatoren er identisk med plus, så skal default udgive et number som er ValOne og ValTwo
+    // Hvis operatoren er identisk med plus, så skal default udgive et number som er ValOne plus ValTwo
     if (op === "plus") {
         def = Number(valOne) + Number(valTwo);
     }
-    // Ellers hvis operatoren er identisk med minus, så skal default udgive et number som er ValOne og ValTwo
+    // Ellers hvis operatoren er identisk med minus, så skal default udgive et number som er ValOne minus ValTwo
     else if (op === "minus") {
         def = Number(valOne) - Number(valTwo);
     }
-    
+    // Ellers hvis operatoren er identisk med gange, så skal default udgive et number som er ValOne gange med ValTwo
     else if (op === "gange") {
         def = Number(valOne) * Number(valTwo);
     }
-
+    // Ellers hvis operatoren er identisk med dividere, så skal default udgive et number som er ValOne divideret med ValTwo
     else if (op === "dividere") {
         def = Number(valOne) / Number(valTwo);
     }
