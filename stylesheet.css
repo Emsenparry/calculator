@@ -1,14 +1,3 @@
-form .text-error {
-    color: red;
-    font-size: 0.8em;
-  }
-  
-.field-error {
-    border-style: solid;
-    border-color: red;
-    border-width: 1.5px;
-  }
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

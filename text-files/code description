@@ -6,4 +6,5 @@ Variables
 
 Funktioner
 - Funktionen calc() henter data fra dommen og lægges ned i variabler.
-Hvorefter den bruger de variabler til at lægge inputs sammen (+operatoren man har valgt) og beregne resultatet.
+Hvorefter den bruger de variabler til at lægge inputs sammen (+operatoren man har valgt) og beregne resultatet. 
+Hvis der er errors vises det i funktionen under vores conditional statements (if, else if). 
