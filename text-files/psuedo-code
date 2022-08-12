@@ -1,5 +1,5 @@
-Brugeren indtaster data.
-Brugeren vælger en operator (-, +, /, *)
+Brugeren indtaster data i formen.
+Brugeren vælger en operator (-, +, /, *) i formen.
 Brugeren trykker på "Beregn"
 "Beregn" trigger "Hent Data"
 "Hent Data" validere om data er korrekt.
